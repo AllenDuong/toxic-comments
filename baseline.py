@@ -92,7 +92,7 @@ if __name__ == '__main__':
         y = y.values
         r = np.log(pr(1,y) / pr(0,y))
         
-        # Cross Validation 3-Fold similar to Nikhit's implementation 
+        # Cross Validation 3-Fold
         logR = LogisticRegression(dual=True)
         m = GridSearchCV(estimator=logR, cv=3, param_grid={'C':[0.01,0.1,1,10]},scoring='roc_auc')
         
