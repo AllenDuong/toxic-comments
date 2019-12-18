@@ -1,5 +1,6 @@
 # Toxic Comment Classification
 ## Goal
+Our goal is to improve online conversation by exploring various multi-headed Machine Learning, Deep Learning and NLP methods to build an accurate model that’s capable of detecting diverse types of negative online comments perceived as toxic. A toxic comment is defined as one that is rude, disrespectful or otherwise likely to make someone leave a discussion.
 
 ## Components
 ### Part 0: Data Exploration
